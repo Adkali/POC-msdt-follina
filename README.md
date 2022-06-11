@@ -11,7 +11,7 @@ You can Modifiy the Payload at www, and insert what ever you want, just to check
 For example --- > After edit the file with Gedit, at [char]34+'[Some/Base64/Syntax/', you can replace it with another Payload of yours.
 
 
-This Document is already put together, just for the POC, so all you have to change is the Payload script, which in our case is the 'index.htmn' site, which holds inside of it a '<script>' tags that stored our Payload, and secondly, at /doc/word/_rels directory, there is a file named 'document.xml.rels. Edit it, and replace the '{PayloadInsideHere}' with yours.
+This Document is already put together, just for the POC, so all you have to change is the Payload script, which in our case is the 'index.html' site, which holds inside of it a '<script>' tags that stored our Payload, and secondly, at /doc/word/_rels directory, there is a file named 'document.xml.rels. Edit it, and replace the '{YourServerHere}' with yours.
 
   
  After made all of that, just rezip the doc file, you can use 7-zip of whatever you like, open a python server, and good luck. Was Tested on  Microsoft Office Document 2007 with no problems, tell me if you managed to get it work on new versions.
