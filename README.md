@@ -18,7 +18,6 @@ This Document is already put together, just for the POC, so all you have to chan
   
   For now, dont forget to de-active the real time protection/firewall, else you can obfuscate your PAYLOAD, but for this is all for now.
   # Educational Purpose Only!
-
   ![POC-test](https://user-images.githubusercontent.com/90532971/172916363-51b0b457-fb9a-44a2-994d-0f396c07e547.gif)
 
   # Usage
