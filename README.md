@@ -1,4 +1,4 @@
-# POC-msdt-Follina
+# POC-msdt-follina
 
 OK, as you know, or don't know, CVE-2022-30190 vulnerability can be described as like an attacker makes some MS Office, puts inside it's structure some link ( html ), and with the help of that, he manage run a malicious code. OLE object (word/_rels/document.xml.rels)
 <br>
