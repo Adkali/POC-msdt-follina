@@ -27,3 +27,5 @@ This Document is already put together, just for the POC, so all you have to chan
 *Notice: When running the py script, you cannot run it again on the same 'www' directory and 'doc'.
   if you want to use it again, copy the  inside 'BackUp' directory again, and run the py again.
   
+# Update
+  Fixed the rels problem, now it should work.
