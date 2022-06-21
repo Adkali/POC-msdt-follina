@@ -29,3 +29,4 @@ This Document is already put together, just for the POC, so all you have to chan
   
 # Update
   Fixed the rels problem, now it should work.
+  change the folder named "rels" to "_rels" if you have troubles.
