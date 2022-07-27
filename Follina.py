@@ -1,6 +1,6 @@
 ### POC for MSDT-Follina ###
 ### Admkali ###
-### For esucational purpose only ###
+### For educational purpose only ###
 
 import os
 import fileinput
